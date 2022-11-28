@@ -10,14 +10,20 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "About",
-                "url": "/about",
+                "label": "Home",
+                "url": "/",
                 "altText": ""
             },
             {
                 "type": "Link",
                 "label": "Pricing",
-                "url": "/pricing",
+                "url": "/careers",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "FAQ",
+                "url": "/faq",
                 "altText": ""
             },
             {
@@ -25,15 +31,17 @@
                 "label": "Blog",
                 "altText": "Blog",
                 "url": "/blog"
-            },
-            {
-                "type": "Link",
-                "label": "Contact",
-                "altText": "Contact",
-                "url": "/contact"
             }
         ],
-
+        "secondaryLinks": [
+            {
+                "type": "Button",
+                "label": "Contact us",
+                "url": "/",
+                "altText": "Sign up",
+                "style": "primary"
+            }
+        ],
         "styles": {
             "self": {
                 "width": "narrow",
@@ -87,8 +95,8 @@
             },
             {
                 "type": "Link",
-                "label": "Pricing",
-                "url": "/pricing",
+                "label": "Careers",
+                "url": "/careers",
                 "altText": ""
             },
             {

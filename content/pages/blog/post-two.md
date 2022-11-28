@@ -1,5 +1,5 @@
 ---
-title: A Work Bubbles
+title: Do I need to be concerned with data privacy?
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hugh-saturation.json

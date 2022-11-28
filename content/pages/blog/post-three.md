@@ -1,5 +1,5 @@
 ---
-title: Surround Yourself With the Right People
+title: Why should you care about your data privacy?
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hilary-ouse.json
@@ -8,7 +8,7 @@ excerpt: >-
   Donec sed facilisis nibh.
 featuredImage:
   type: ImageBlock
-  url: /images/post-3.jpg
+  url: /images/laptop.jpg
   altText: Post Image
 bottomSections:
   - elementId: ''

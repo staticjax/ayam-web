@@ -1,10 +1,6 @@
 {
-    "name": "starter-nextjs-theme",
+    "name": "ayam-web",
     "version": "0.1.0",
-    "engines": {
-        "node": ">=14 <16",
-        "npm": "~6"
-    },
     "scripts": {
         "dev": "next dev",
         "build": "next build && next export",

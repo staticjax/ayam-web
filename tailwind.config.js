@@ -21,7 +21,8 @@ module.exports = {
                 secondary: themeStyle.secondary,
                 'on-secondary': themeStyle.onSecondary,
                 complementary: themeStyle.complementary,
-                'on-complementary': themeStyle.onComplementary
+                'on-complementary': themeStyle.onComplementary,
+                tertiary: themeStyle.tertiary
             },
             spacing: {
                 '1/1': '100%',

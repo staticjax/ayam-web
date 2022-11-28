@@ -1,5 +1,5 @@
 ---
-title: Virtual benefits
+title: Using password management in estate planning
 layout: PostLayout
 date: '2021-06-28'
 author: content/data/team/dianne-ameter.json
