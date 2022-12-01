@@ -376,6 +376,28 @@
             @apply hover:bg-primary hover:text-light;
         }
     }
+    .colors-f2 {
+        @apply bg-tertiary text-on-secondary;
+        .sb-input,
+        .sb-select,
+        .sb-textarea {
+            @apply text-on-secondary placeholder-on-secondary placeholder-opacity-75;
+        }
+        .sb-component-button-primary,
+        .sb-component-social-primary {
+            @apply bg-primary border-primary text-on-primary;
+        }
+        .sb-component-button-secondary,
+        .sb-component-social-secondary {
+            @apply border-light text-light;
+        }
+        .sb-card {
+            @apply bg-light text-on-light;
+        }
+        .sb-component-item-hover {
+            @apply hover:bg-primary hover:text-light;
+        }
+    }
     .colors-g {
         @apply bg-secondary text-primary;
         .sb-input,

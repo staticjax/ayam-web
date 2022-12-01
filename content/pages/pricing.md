@@ -194,6 +194,122 @@ sections:
       actions:
         justifyContent: flex-start
 
+  - type: FeatureHighlightSection
+    elementId: 'BitWarden'
+    colors: colors-f
+    backgroundSize: inset
+    title: Why BitWarden?
+    text: >
+      Your online world revolves around passwords. To stay safe from data breaches, you need to create strong and unique passwords for every account, but remembering them all without help gets tricky.
+
+
+      Using an open source password manager lets you easily protect yourself and your data. Bitwarden generates, stores, and secures your most important digital assets in an end-to-end encrypted vault.
+    badge:
+      type: Badge
+      label: Encrypted Password Management
+      styles:
+        self:
+          textAlign: left
+    actions:
+      - type: Button
+        label: Get Started
+        url: /#featured-items
+        style: primary
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-20
+          - mb-20
+          - ml-0
+          - mr-0
+        padding:
+          - pt-10
+          - pb-10
+          - pl-10
+          - pr-10
+        justifyContent: center
+        flexDirection: row
+        alignItems: center
+        borderRadius: xx-large
+        boxShadow: xx-large
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      url: /images/bitwarden1.png
+      altText: Bitwarden
+      caption: Bitwarden
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+
+  - type: FeatureHighlightSection
+    elementId: 'Nextcloud'
+    colors: colors-f
+    backgroundSize: inset
+    title: Why Nextcloud?
+    text: >
+      Your modern digital life revolves around important personal documents that should be private and stored securely. Keeping these documents on your personal computer isn't a foolproof solution as you may lose that device. Today, it is best practice to backup your documents to a cloud storage solution.
+
+
+      Using Nextcloud, the most popular open source file storage service, you can securely backup and sync your files and photos using end-to-end encryption. You can then access your documents from a secure web portal or via clients for your desktop or mobile phone.
+    badge:
+      type: Badge
+      label: Encrypted File Storage
+      styles:
+        self:
+          textAlign: left
+    actions:
+      - type: Button
+        label: Get Started
+        url: /#featured-items
+        style: primary
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-20
+          - mb-20
+          - ml-0
+          - mr-0
+        padding:
+          - pt-10
+          - pb-10
+          - pl-10
+          - pr-10
+        justifyContent: center
+        flexDirection: row-reverse
+        alignItems: center
+        borderRadius: xx-large
+        boxShadow: xx-large
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      url: /images/nextcloud1.png
+      altText: Nextcloud
+      caption: Nextcloud
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+
   - elementId: contact-form
     colors: colors-f
     backgroundSize: inset

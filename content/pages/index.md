@@ -6,7 +6,7 @@ sections:
     elementId: homepage-hero-1
     colors: colors-a
     title: 'Your Data in a Private Cloud.'
-    subtitle: 'Your personal data is only truly secure and private when it is on your terms. Take back control of your files, passwords, messaging, email, and more. Then you can say "Ayam Secure".'
+    subtitle: 'Your personal data is only truly secure and private when it is on your terms. Take back control of your passwords, files, messaging, email, and more. Then you can really say "Ayam Secure".'
     actions:
       - type: Button
         label: Get Started
@@ -14,7 +14,7 @@ sections:
         style: primary
       - type: Link
         label: Learn More
-        url: /
+        url: /#bitwarden
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -58,7 +58,7 @@ sections:
     actions:
       - type: Link
         label: Learn More
-        url: /
+        url: /#bitwarden
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -97,11 +97,11 @@ sections:
     colors: colors-a
     title: Own your data.
     text: >
-      It seems daunting but you can progress towards data sovereignty by taking small steps. Start with your files, then maybe your passwords, then maybe email.
+      It seems daunting but you can progress towards data ownership by taking small steps. Start with your passwords, then maybe your files, then maybe email.
     actions:
       - type: Link
         label: Learn More
-        url: /
+        url: /#bitwarden
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -148,7 +148,7 @@ sections:
     actions:
       - type: Link
         label: Learn More
-        url: /
+        url: /#bitwarden
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -182,15 +182,131 @@ sections:
       actions:
         justifyContent: flex-start
 
+  - type: FeatureHighlightSection
+    elementId: 'bitwarden'
+    colors: colors-f
+    backgroundSize: inset
+    title: Why BitWarden?
+    text: >
+      Your online world revolves around passwords. To stay safe from data breaches, you need to create strong and unique passwords for every account, but remembering them all without help gets tricky.
+
+
+      Using an open source password manager lets you easily protect yourself and your data. Bitwarden generates, stores, and secures your most important digital assets in an end-to-end encrypted vault.
+    badge:
+      type: Badge
+      label: Encrypted Password Management
+      styles:
+        self:
+          textAlign: left
+    actions:
+      - type: Button
+        label: Get Started
+        url: /#featured-items
+        style: primary
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-20
+          - mb-20
+          - ml-0
+          - mr-0
+        padding:
+          - pt-10
+          - pb-10
+          - pl-10
+          - pr-10
+        justifyContent: center
+        flexDirection: row
+        alignItems: center
+        borderRadius: xx-large
+        boxShadow: xx-large
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      url: /images/bitwarden1.png
+      altText: Bitwarden
+      caption: Bitwarden
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+
+  - type: FeatureHighlightSection
+    elementId: 'Nextcloud'
+    colors: colors-f
+    backgroundSize: inset
+    title: Why Nextcloud?
+    text: >
+      Your modern digital life revolves around important personal documents that should be private and stored securely. Keeping these documents on your personal computer isn't a foolproof solution as you may lose that device. Today, it is best practice to backup your documents to a cloud storage solution.
+
+
+      Using Nextcloud, the most popular open source file storage service, you can securely backup and sync your files and photos using end-to-end encryption. You can then access your documents from a secure web portal or via clients for your desktop or mobile phone.
+    badge:
+      type: Badge
+      label: Encrypted File Storage
+      styles:
+        self:
+          textAlign: left
+    actions:
+      - type: Button
+        label: Get Started
+        url: /#featured-items
+        style: primary
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-20
+          - mb-20
+          - ml-0
+          - mr-0
+        padding:
+          - pt-10
+          - pb-10
+          - pl-10
+          - pr-10
+        justifyContent: center
+        flexDirection: row-reverse
+        alignItems: center
+        borderRadius: xx-large
+        boxShadow: xx-large
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      url: /images/nextcloud1.png
+      altText: Nextcloud
+      caption: Nextcloud
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+
   - type: FeaturedItemsSection
     colors: colors-a
     elementId: 'featured-items'
-    title: Choose your path to data sovereignty
+    title: Choose your path to data ownership
     subtitle: >-
       We believe that data privacy is a fundamental human right. Unfortunately it's not free but it's affordable.
     items:
       - type: FeaturedItem
-        title: Do-It-Yourself Cloud
+        title: Do It Yourself Cloud
         text: >
           Spin up a linux server and run the recommended open source projects via Docker containers. We have excellent documentation to enable you but you will need to have some experience with linux.
         featuredImage:
@@ -373,6 +489,62 @@ sections:
       subtitle:
         textAlign: center
     imageSizePx: 240
+
+  - type: FeatureHighlightSection
+    elementId: 'email'
+    colors: colors-f
+    backgroundSize: inset
+    title: 'Coming soon: End-to-end Encrypted Email'
+    text: >
+      We are working on our private email service offering that uses open source, independently audited end-to-end encryption and zero-access encryption to secure your communications. This protects against data breaches and ensures no one (not even Proton) can access your inbox. Only you can read your messages.
+    badge:
+      type: Badge
+      label: End-To-End Encrypted Email Service
+      styles:
+        self:
+          textAlign: left
+    actions:
+      - type: Button
+        label: Sign up for early access
+        url: /#featured-items
+        style: primary
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-20
+          - mb-20
+          - ml-0
+          - mr-0
+        padding:
+          - pt-10
+          - pb-10
+          - pl-10
+          - pr-10
+        justifyContent: center
+        flexDirection: row
+        alignItems: center
+        borderRadius: xx-large
+        boxShadow: xx-large
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      url: /images/email.png
+      altText: Bitwarden
+      caption: Bitwarden
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-a

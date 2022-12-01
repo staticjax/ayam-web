@@ -28,7 +28,7 @@ sections:
         justifyContent: center
         flexDirection: row
       title:
-        textAlign: center
+        textAlign: left
       subtitle:
         textAlign: left
       text:
