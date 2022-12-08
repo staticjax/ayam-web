@@ -51,10 +51,10 @@ sections:
           ✓ 1 User
 
 
-          ✓ BitWarden Password Manager
+          ✓ Bitwarden Password Manager
 
 
-          ✓ NextCloud with 10 GB File Storage 
+          ✓ Nextcloud with 10 GB File Storage 
 
 
         text2: sample test
@@ -91,13 +91,13 @@ sections:
           Includes:
 
 
-          ✓ 3 Users
+          ✓ 5 Users
 
 
-          ✓ BitWarden Password Manager
+          ✓ Bitwarden Password Manager
 
 
-          ✓ NextCloud with 1 TB File Storage
+          ✓ Nextcloud with 1 TB File Storage
 
         featuredImage:
           url: /images/cloud.svg
@@ -132,13 +132,13 @@ sections:
           Includes:
 
 
-          ✓ Custom Users
+          ✓ Unlimited Users
 
 
-          ✓ BitWarden Password Manager
+          ✓ Bitwarden Password Manager
 
 
-          ✓ NextCloud with up to 100 TB File Storage
+          ✓ Nextcloud with up to 100 TB File Storage
 
         featuredImage:
           url: /images/locked.svg
@@ -195,15 +195,15 @@ sections:
         justifyContent: flex-start
 
   - type: FeatureHighlightSection
-    elementId: 'BitWarden'
+    elementId: 'bitwarden'
     colors: colors-f
     backgroundSize: inset
-    title: Why BitWarden?
+    title: Why Bitwarden?
     text: >
       Your online world revolves around passwords. To stay safe from data breaches, you need to create strong and unique passwords for every account, but remembering them all without help gets tricky.
 
 
-      Using an open source password manager lets you easily protect yourself and your data. Bitwarden generates, stores, and secures your most important digital assets in an end-to-end encrypted vault.
+      Using an open source password manager like Bitwarden lets you easily protect yourself and your data. Bitwarden generates, stores, and secures your most important digital assets in an end-to-end encrypted vault.
     badge:
       type: Badge
       label: Encrypted Password Management
@@ -213,7 +213,7 @@ sections:
     actions:
       - type: Button
         label: Get Started
-        url: /#featured-items
+        url: /pricing
         style: primary
     styles:
       self:
@@ -258,7 +258,7 @@ sections:
     backgroundSize: inset
     title: Why Nextcloud?
     text: >
-      Your modern digital life revolves around important personal documents that should be private and stored securely. Keeping these documents on your personal computer isn't a foolproof solution as you may lose that device. Today, it is best practice to backup your documents to a cloud storage solution.
+      Your modern digital life revolves around important personal documents that should be kept private and stored securely. Keeping these documents on your personal computer isn't a foolproof solution as you may lose that device. Today, it is best practice to backup your documents to a secure cloud storage solution.
 
 
       Using Nextcloud, the most popular open source file storage service, you can securely backup and sync your files and photos using end-to-end encryption. You can then access your documents from a secure web portal or via clients for your desktop or mobile phone.
@@ -271,7 +271,7 @@ sections:
     actions:
       - type: Button
         label: Get Started
-        url: /#featured-items
+        url: /pricing
         style: primary
     styles:
       self:
