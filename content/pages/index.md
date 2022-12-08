@@ -54,7 +54,7 @@ sections:
     colors: colors-a
     title: 'If you are not paying, then you are the product.'
     text: >
-      Free digital services from Google, Facebook, Yahoo, DropBox, etc. make our lives very convenient but you're paying by giving up your personal information. It doesn't have to be like this. You can extricate yourself from big tech and leverage open source software to get similar services that are secure and private.
+      Free digital services from Google, Facebook, Yahoo, Dropbox, etc. make our lives very convenient but you're paying by giving up your attention and personal information. It doesn't have to be like this. You can extricate yourself from proprietary technology and leverage open source software to get similar services that are secure and private.
     actions:
       - type: Link
         label: Learn More
@@ -97,7 +97,7 @@ sections:
     colors: colors-a
     title: Own your data.
     text: >
-      It seems daunting but you can progress towards data ownership by taking small steps. Start with your passwords, then maybe your files, then maybe email.
+      It seems daunting but you can progress towards data ownership by taking small steps. Start with your passwords (move from LastPass to Bitwarden), then maybe your files (move from Google Drive, Dropbox to Nextcloud), then maybe messaging (move from Whatsapp to Matrix/Element), then maybe email (move from gmail to docker-mailserver).
     actions:
       - type: Link
         label: Learn More
@@ -135,63 +135,63 @@ sections:
       actions:
         justifyContent: flex-start
 
-  - type: FeatureHighlightSection
-    elementId: 'sub-section-3'
-    colors: colors-a
-    title: 'Leverage Open Source Software.'
-    text: >
-      For file and photo sync, use NextCloud.
-      For password management, use BitWarden.
-      For private messaging, use Matrix / Element.
-      For email, use Docker-Mailserver and RoundCube.
-      For encrypted notes, use Standard Notes.
-    actions:
-      - type: Link
-        label: Learn More
-        url: /#bitwarden
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-    media:
-      type: ImageBlock
-      url: /images/vector-opensource.jpg
-      altText: Hero section image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-10
-          - pb-10
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row-reverse
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
+  # - type: FeatureHighlightSection
+  #   elementId: 'sub-section-3'
+  #   colors: colors-a
+  #   title: 'Leverage Open Source Software.'
+  #   text: >
+  #     For file and photo sync, use Nextcloud.
+  #     For password management, use Bitwarden.
+  #     For private messaging, use Matrix / Element.
+  #     For email, use Docker-Mailserver and RoundCube.
+  #     For encrypted notes, use Standard Notes.
+  #   actions:
+  #     - type: Link
+  #       label: Learn More
+  #       url: /#bitwarden
+  #       showIcon: true
+  #       icon: arrowRight
+  #       iconPosition: right
+  #   media:
+  #     type: ImageBlock
+  #     url: /images/vector-opensource.jpg
+  #     altText: Hero section image
+  #   styles:
+  #     self:
+  #       height: auto
+  #       width: wide
+  #       margin:
+  #         - mt-0
+  #         - mb-0
+  #         - ml-0
+  #         - mr-0
+  #       padding:
+  #         - pt-10
+  #         - pb-10
+  #         - pl-4
+  #         - pr-4
+  #       alignItems: center
+  #       justifyContent: center
+  #       flexDirection: row-reverse
+  #     title:
+  #       textAlign: left
+  #     subtitle:
+  #       textAlign: left
+  #     text:
+  #       textAlign: left
+  #     actions:
+  #       justifyContent: flex-start
 
   - type: FeatureHighlightSection
     elementId: 'bitwarden'
     colors: colors-f
     backgroundSize: inset
-    title: Why BitWarden?
+    title: Why Bitwarden?
     text: >
       Your online world revolves around passwords. To stay safe from data breaches, you need to create strong and unique passwords for every account, but remembering them all without help gets tricky.
 
 
-      Using an open source password manager lets you easily protect yourself and your data. Bitwarden generates, stores, and secures your most important digital assets in an end-to-end encrypted vault.
+      Using an open source password manager like Bitwarden lets you easily protect yourself and your data. Bitwarden generates, stores, and secures your most important digital assets in an end-to-end encrypted vault.
     badge:
       type: Badge
       label: Encrypted Password Management
@@ -246,7 +246,7 @@ sections:
     backgroundSize: inset
     title: Why Nextcloud?
     text: >
-      Your modern digital life revolves around important personal documents that should be private and stored securely. Keeping these documents on your personal computer isn't a foolproof solution as you may lose that device. Today, it is best practice to backup your documents to a cloud storage solution.
+      Your modern digital life revolves around important personal documents that should be kept private and stored securely. Keeping these documents on your personal computer isn't a foolproof solution as you may lose that device. Today, it is best practice to backup your documents to a secure cloud storage solution.
 
 
       Using Nextcloud, the most popular open source file storage service, you can securely backup and sync your files and photos using end-to-end encryption. You can then access your documents from a secure web portal or via clients for your desktop or mobile phone.
@@ -303,7 +303,7 @@ sections:
     elementId: 'featured-items'
     title: Choose your path to data ownership
     subtitle: >-
-      We believe that data privacy is a fundamental human right. Unfortunately it's not free but it's affordable.
+      We believe that data ownership is a fundamental human right. Unfortunately it is not free but it is affordable.
     items:
       - type: FeaturedItem
         title: Do It Yourself Cloud
@@ -340,7 +340,7 @@ sections:
       - type: FeaturedItem
         title: Ayam Secure Cloud
         text: >
-          Let us manage the software services on our secure and private cloud and you pay for what you use. All our services are secure and can be end-to-end encrypted if you need it.
+          Let us manage the software services on our secure and private cloud and you pay for what you use with no vendor lock-in. All our services are secure and can be end-to-end encrypted if you need it.
         featuredImage:
           url: /images/cloud.svg
           altText: altText of the image
@@ -372,7 +372,7 @@ sections:
       - type: FeaturedItem
         title: Custom Cloud
         text: >
-          For maximum security, you own the server and other resources and control access but we help you get started with configuration and provide on-going support on a custom basis.
+          For maximum security, you should own the server and other resources and control access but we can help you get started with configuration and provide on-going support on a custom basis.
         featuredImage:
           url: /images/locked.svg
           altText: altText of the image
@@ -496,7 +496,7 @@ sections:
     backgroundSize: inset
     title: 'Coming soon: End-to-end Encrypted Email'
     text: >
-      We are working on our private email service offering that uses open source, independently audited end-to-end encryption and zero-access encryption to secure your communications. This protects against data breaches and ensures no one (not even Proton) can access your inbox. Only you can read your messages.
+      We are working on our private email service offering that uses open source, independently audited end-to-end encryption and zero-access encryption to secure your communications. This protects against data breaches and ensures no one (not even us) can access your inbox. Only you can read your messages.
     badge:
       type: Badge
       label: End-To-End Encrypted Email Service
