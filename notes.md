@@ -10,7 +10,11 @@
 - in content/data/style.json, primary color:
   "primary": "#344ff1",
 
-## Snipcard
+## Homepage text:
+
+- Start with your passwords (move from LastPass to Bitwarden), then maybe your files (move from Google Drive, Dropbox to Nextcloud), then maybe messaging (move from Whatsapp to Matrix/Element), then maybe email (move from gmail to docker-mailserver).
+
+## Snipcart
 
 ```
 <script>

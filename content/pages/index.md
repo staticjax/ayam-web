@@ -53,8 +53,8 @@ sections:
     elementId: 'sub-section-1'
     colors: colors-a
     title: 'If you are not paying, then you are the product.'
-    text: >
-      Free digital services from Google, Facebook, Yahoo, Dropbox, etc. make our lives very convenient but you're paying by giving up your attention and personal information. It doesn't have to be like this. You can extricate yourself from proprietary technology and leverage open source software to get similar services that are secure and private.
+    subtitle: >
+      Free digital services from Google, Facebook, Yahoo, Dropbox, etc. make our lives very convenient but you're paying by giving up your attention and personal information. It doesn't have to be like this. You can remove your data from big tech and use open source software to get similar services that are more private and secure.
     actions:
       - type: Link
         label: Learn More
@@ -96,8 +96,8 @@ sections:
     elementId: 'sub-section-2'
     colors: colors-a
     title: Own your data.
-    text: >
-      It seems daunting but you can progress towards data ownership by taking small steps. Start with your passwords (move from LastPass to Bitwarden), then maybe your files (move from Google Drive, Dropbox to Nextcloud), then maybe messaging (move from Whatsapp to Matrix/Element), then maybe email (move from gmail to docker-mailserver).
+    subtitle: >
+      It seems daunting but you can progress towards data ownership by taking small steps. Start with your passwords (move from LastPass to Bitwarden), then maybe your files (move from Google Drive, Dropbox to Nextcloud), then maybe messaging and email.
     actions:
       - type: Link
         label: Learn More
@@ -321,7 +321,7 @@ sections:
         actions:
           - type: Link
             label: View Documentation
-            url: /
+            url: https://docs.ayamsecure.com
             showIcon: true
             icon: chevronRight
             iconPosition: right
